@@ -1,0 +1,932 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2025.07.03 19:48:31 =~=~=~=~=~=~=~=~=~=~=~=
++VER: 3.5.13
++ID: DevAddr, 00:07:9A:3E
++ID: DevEui, 70:B3:D5:7E:D0:06:F0:F8
++ID: AppEui, 8C:F9:57:20:00:07:9A:3E
++KEY: ERROR(-1)
++KEY: ERROR(-1)
++KEY: APPKEY 2B7E151628AED2A6ABF7158809CF4F3C
++MODE: LWOTAA
++DR: EU868
++DR: DR0
++DR: EU868 DR0  SF12 BW125K 
++CH: 0,868100000,DR0:DR5
++CH: 1,868300000,DR0:DR5
++CH: 2,868500000,DR0:DR5
++RXWIN1: 0,868100000
++RXWIN2: 869500000,DR3
++LW: DC, OFF, 0
++LW: JDC, OFF
++POWER: 14
++JOIN: Start
++JOIN: NORMAL
+SETUP=END=============================================================
+======================================================================
+
+Temp	Hum	Press	Chuva	Ar	Luz	UV	Lat	Long	Date	Time	Mask
+0.00	0.00	0.00	-	0	0.00	0.00	30.240455	-97.817713	2013-9-3	4:52:52	0000000
+Location: 30.240455,-97.817713  Date/Time: 9/3/2013 04:52:52.00
+
+======================================================================
+LOOP==================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:02:50
+ug/m^3: 26.07
+ug/m^3 (converted): 126.78
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		39.10
+		 Umidade (%):     		33.60
+		 Pressão Atmosférica (hPa): 	1006.49
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	9057.00
+		 Intensidade UV (mW/cm²): 	1.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000000
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:05:50
+ug/m^3: 25.19
+ug/m^3 (converted): 122.49
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5003	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		38.30
+		 Umidade (%):     		34.36
+		 Pressão Atmosférica (hPa): 	1006.73
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	8516.00
+		 Intensidade UV (mW/cm²): 	1.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000000
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:08:50
+ug/m^3: 23.99
+ug/m^3 (converted): 116.66
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5003	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		39.90
+		 Umidade (%):     		32.76
+		 Pressão Atmosférica (hPa): 	1006.56
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	8011.00
+		 Intensidade UV (mW/cm²): 	1.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000000
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:11:50
+ug/m^3: 24.03
+ug/m^3 (converted): 116.85
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		41.15
+		 Umidade (%):     		31.52
+		 Pressão Atmosférica (hPa): 	1006.46
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	7562.00
+		 Intensidade UV (mW/cm²): 	1.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000000
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:14:50
+ug/m^3: 7.74
+ug/m^3 (converted): 37.63
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		32.04
+		 Umidade (%):     		37.01
+		 Pressão Atmosférica (hPa): 	1006.92
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	1159.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000010
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:17:50
+ug/m^3: 7.67
+ug/m^3 (converted): 37.29
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		28.75
+		 Umidade (%):     		41.29
+		 Pressão Atmosférica (hPa): 	1007.09
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	1111.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000010
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:20:50
+ug/m^3: 7.58
+ug/m^3 (converted): 36.85
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		27.44
+		 Umidade (%):     		43.11
+		 Pressão Atmosférica (hPa): 	1007.19
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	1046.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000010
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:23:50
+ug/m^3: 7.56
+ug/m^3 (converted): 36.75
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		26.83
+		 Umidade (%):     		44.01
+		 Pressão Atmosférica (hPa): 	1007.23
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	981.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000010
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:26:50
+ug/m^3: 7.40
+ug/m^3 (converted): 35.98
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5003	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		26.61
+		 Umidade (%):     		44.35
+		 Pressão Atmosférica (hPa): 	1007.24
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	850.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000010
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:29:50
+ug/m^3: 7.34
+ug/m^3 (converted): 35.72
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		26.44
+		 Umidade (%):     		45.00
+		 Pressão Atmosférica (hPa): 	1007.28
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	679.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000010
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:32:50
+ug/m^3: 7.36
+ug/m^3 (converted): 35.79
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		26.29
+		 Umidade (%):     		45.36
+		 Pressão Atmosférica (hPa): 	1007.31
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	609.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000010
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:35:50
+ug/m^3: 7.27
+ug/m^3 (converted): 35.36
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		26.13
+		 Umidade (%):     		45.67
+		 Pressão Atmosférica (hPa): 	1007.30
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	474.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000010
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:38:50
+ug/m^3: 7.26
+ug/m^3 (converted): 35.33
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		25.94
+		 Umidade (%):     		46.06
+		 Pressão Atmosférica (hPa): 	1007.35
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	418.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000010
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:41:50
+ug/m^3: 7.21
+ug/m^3 (converted): 35.05
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5003	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		25.81
+		 Umidade (%):     		46.47
+		 Pressão Atmosférica (hPa): 	1007.42
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	378.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000010
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:44:50
+ug/m^3: 7.18
+ug/m^3 (converted): 34.90
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		25.74
+		 Umidade (%):     		47.34
+		 Pressão Atmosférica (hPa): 	1007.43
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	348.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000010
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:47:50
+ug/m^3: 7.17
+ug/m^3 (converted): 34.86
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		25.64
+		 Umidade (%):     		47.70
+		 Pressão Atmosférica (hPa): 	1007.44
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	323.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000010
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:50:50
+ug/m^3: 7.21
+ug/m^3 (converted): 35.06
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		25.60
+		 Umidade (%):     		47.73
+		 Pressão Atmosférica (hPa): 	1007.44
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	277.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000010
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:53:50
+ug/m^3: 7.15
+ug/m^3 (converted): 34.78
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5003	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		25.48
+		 Umidade (%):     		47.84
+		 Pressão Atmosférica (hPa): 	1007.49
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	237.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000010
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:56:50
+ug/m^3: 7.16
+ug/m^3 (converted): 34.83
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5003	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		25.36
+		 Umidade (%):     		47.97
+		 Pressão Atmosférica (hPa): 	1007.53
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	207.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000010
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:59:50
+ug/m^3: 7.18
+ug/m^3 (converted): 34.94
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		25.32
+		 Umidade (%):     		48.11
+		 Pressão Atmosférica (hPa): 	1007.54
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	197.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000010
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 01:02:50
+ug/m^3: 7.14
+ug/m^3 (converted): 34.72
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5003	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		25.22
+		 Umidade (%):     		48.18
+		 Pressão Atmosférica (hPa): 	1007.55
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	151.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000010
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 01:05:50
+ug/m^3: 7.19
+ug/m^3 (converted): 34.95
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		25.10
+		 Umidade (%):     		48.53
+		 Pressão Atmosférica (hPa): 	1007.57
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	126.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000010
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 01:08:50
+ug/m^3: 7.13
+ug/m^3 (converted): 34.67
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5003	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		24.97
+		 Umidade (%):     		48.77
+		 Pressão Atmosférica (hPa): 	1007.61
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	96.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000010
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 01:11:50
+ug/m^3: 7.13
+ug/m^3 (converted): 34.66
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		24.95
+		 Umidade (%):     		48.39
+		 Pressão Atmosférica (hPa): 	1007.63
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	86.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000010
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 01:14:50
+ug/m^3: 7.13
+ug/m^3 (converted): 34.70
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		24.90
+		 Umidade (%):     		48.00
+		 Pressão Atmosférica (hPa): 	1007.61
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	71.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000010
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 01:17:50
+ug/m^3: 7.11
+ug/m^3 (converted): 34.58
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		24.84
+		 Umidade (%):     		48.51
+		 Pressão Atmosférica (hPa): 	1007.64
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	55.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000010
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 01:20:50
+ug/m^3: 7.18
+ug/m^3 (converted): 34.94
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5003	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		24.75
+		 Umidade (%):     		48.89
+		 Pressão Atmosférica (hPa): 	1007.71
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	24.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000010
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 01:23:50
+ug/m^3: 7.12
+ug/m^3 (converted): 34.62
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		24.76
+		 Umidade (%):     		49.35
+		 Pressão Atmosférica (hPa): 	1007.74
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	24.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000010
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 01:26:50
+ug/m^3: 7.18
+ug/m^3 (converted): 34.93
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5003	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		24.98
+		 Umidade (%):     		54.68
+		 Pressão Atmosférica (hPa): 	1007.76
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000110
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 01:29:50
+ug/m^3: 7.18
+ug/m^3 (converted): 34.92
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		25.16
+		 Umidade (%):     		54.81
+		 Pressão Atmosférica (hPa): 	1007.79
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000110
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 01:32:50
+ug/m^3: 7.14
+ug/m^3 (converted): 34.71
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		25.01
+		 Umidade (%):     		52.37
+		 Pressão Atmosférica (hPa): 	1007.81
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000110
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 01:35:50
+ug/m^3: 7.09
+ug/m^3 (converted): 34.50
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5003	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		24.79
+		 Umidade (%):     		51.17
+		 Pressão Atmosférica (hPa): 	1007.84
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000110
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 01:38:50
+ug/m^3: 7.09
+ug/m^3 (converted): 34.50
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5003	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		24.68
+		 Umidade (%):     		50.39
+		 Pressão Atmosférica (hPa): 	1007.86
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000110
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 01:41:50
+ug/m^3: 7.10
+ug/m^3 (converted): 34.51
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		24.59
+		 Umidade (%):     		49.92
+		 Pressão Atmosférica (hPa): 	1007.92
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000110
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 01:44:50
+ug/m^3: 7.06
+ug/m^3 (converted): 34.34
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5003	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		24.45
+		 Umidade (%):     		49.56
+		 Pressão Atmosférica (hPa): 	1007.97
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000110
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 01:47:50
+ug/m^3: 7.10
+ug/m^3 (converted): 34.55
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		24.29
+		 Umidade (%):     		49.24
+		 Pressão Atmosférica (hPa): 	1008.01
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000110
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 01:50:50
+ug/m^3: 7.10
+ug/m^3 (converted): 34.53
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		24.34
+		 Umidade (%):     		50.26
+		 Pressão Atmosférica (hPa): 	1008.05
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000110
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 01:53:50
+ug/m^3: 7.14
+ug/m^3 (converted): 34.74
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		24.39
+		 Umidade (%):     		50.10
+		 Pressão Atmosférica (hPa): 	1008.07
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000110
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 01:56:50
+ug/m^3: 7.12
+ug/m^3 (converted): 34.61
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5003	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		24.35
+		 Umidade (%):     		50.26
+		 Pressão Atmosférica (hPa): 	1008.09
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000110
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 01:59:50
+ug/m^3: 7.12
+ug/m^3 (converted): 34.65
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5003	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		24.23
+		 Umidade (%):     		50.46
+		 Pressão Atmosférica (hPa): 	1008.13
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000110
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 02:02:50
+ug/m^3: 7.15
+ug/m^3 (converted): 34.78
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		24.17
+		 Umidade (%):     		50.74
+		 Pressão Atmosférica (hPa): 	1008.19
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000110
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 02:05:50
+ug/m^3: 7.15
+ug/m^3 (converted): 34.79
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5003	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		24.15
+		 Umidade (%):     		50.64
+		 Pressão Atmosférica (hPa): 	1008.23
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000110
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 02:08:50
+ug/m^3: 7.08
+ug/m^3 (converted): 34.41
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		24.13
+		 Umidade (%):     		50.30
+		 Pressão Atmosférica (hPa): 	1008.29
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000110
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 02:11:50
+ug/m^3: 7.10
+ug/m^3 (converted): 34.55
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5003	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		24.07
+		 Umidade (%):     		50.23
+		 Pressão Atmosférica (hPa): 	1008.34
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000110
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 02:14:50
+ug/m^3: 7.09
+ug/m^3 (converted): 34.50
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		23.97
+		 Umidade (%):     		50.04
+		 Pressão Atmosférica (hPa): 	1008.38
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000110
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 02:17:50
+ug/m^3: 7.11
+ug/m^3 (converted): 34.59
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5003	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		23.96
+		 Umidade (%):     		50.19
+		 Pressão Atmosférica (hPa): 	1008.44
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000110
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 02:20:50
+ug/m^3: 7.05
+ug/m^3 (converted): 34.29
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		23.91
+		 Umidade (%):     		50.69
+		 Pressão Atmosférica (hPa): 	1008.51
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000110
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 02:23:50
+ug/m^3: 7.04
+ug/m^3 (converted): 34.26
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5003	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		23.79
+		 Umidade (%):     		50.51
+		 Pressão Atmosférica (hPa): 	1008.56
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000110
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 02:26:50
+ug/m^3: 7.06
+ug/m^3 (converted): 34.35
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5003	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		23.77
+		 Umidade (%):     		50.54
+		 Pressão Atmosférica (hPa): 	1008.62
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000110
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 02:29:50
+ug/m^3: 7.05
+ug/m^3 (converted): 34.28
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5003	 Message size (bytes): 40
+	 Valores dos Sensores:
+		 Temperatura (C): 		23.77
+		 Umidade (%):     		50.45
+		 Pressão Atmosférica (hPa): 	1008.69
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	21.90
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	0.00
+		 Coordenadas (lat/log): 	30.24   |    -97.82
+		 Sensor Error Mask: 		00000110
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 02:32:50

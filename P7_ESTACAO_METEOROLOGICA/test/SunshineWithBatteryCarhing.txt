@@ -1,0 +1,171 @@
+===================================  Elapsed Time (hh:mm:ss): 00:05:58
+
+	 Valores dos Sensores:
+		 Temperatura (C): 	26.52
+		 Umidade (%): 	51.38
+		 Pressão Atmosférica (hPa): 	0.00
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	3.00
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	2554.19
+		 Battery Voltage: 0.55 V
+		 Battery:	 Low!
+		 USB is connected and charging.
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:06:08
+
+	 Valores dos Sensores:
+		 Temperatura (C): 	26.52
+		 Umidade (%): 	52.58
+		 Pressão Atmosférica (hPa): 	0.00
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	3.00
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	1911.88
+		 Battery Voltage: 0.55 V
+		 Battery:	 Low!
+		 USB is connected and charging.
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:06:18
+
+	 Valores dos Sensores:
+		 Temperatura (C): 	26.53
+		 Umidade (%): 	51.71
+		 Pressão Atmosférica (hPa): 	0.00
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	3.00
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	1845.44
+		 Battery Voltage: 0.55 V
+		 Battery:	 Low!
+		 USB is connected and charging.
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:06:28
+
+	 Valores dos Sensores:
+		 Temperatura (C): 	26.52
+		 Umidade (%): 	52.64
+		 Pressão Atmosférica (hPa): 	0.00
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	3.00
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	1756.84
+		 Battery Voltage: 0.55 V
+		 Battery:	 Low!
+		 USB is connected and charging.
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 28
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:06:43
+
+	 Valores dos Sensores:
+		 Temperatura (C): 	26.54
+		 Umidade (%): 	53.28
+		 Pressão Atmosférica (hPa): 	0.00
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	3.00
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	3739.13
+		 Battery Voltage: 0.56 V
+		 Battery:	 Low!
+		 USB is connected and charging.
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:06:53
+
+	 Valores dos Sensores:
+		 Temperatura (C): 	26.51
+		 Umidade (%): 	52.88
+		 Pressão Atmosférica (hPa): 	0.00
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	3.00
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	5787.85
+		 Battery Voltage: 0.55 V
+		 Battery:	 Low!
+		 USB is connected and charging.
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:07:03
+
+	 Valores dos Sensores:
+		 Temperatura (C): 	26.54
+		 Umidade (%): 	52.11
+		 Pressão Atmosférica (hPa): 	0.00
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	3.00
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	3296.16
+		 Battery Voltage: 0.55 V
+		 Battery:	 Low!
+		 USB is connected and charging.
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:07:13
+
+	 Valores dos Sensores:
+		 Temperatura (C): 	26.56
+		 Umidade (%): 	53.51
+		 Pressão Atmosférica (hPa): 	0.00
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	3.00
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	3041.45
+		 Battery Voltage: 0.55 V
+		 Battery:	 Low!
+		 USB is connected and charging.
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:07:23
+
+	 Valores dos Sensores:
+		 Temperatura (C): 	26.62
+		 Umidade (%): 	55.76
+		 Pressão Atmosférica (hPa): 	0.00
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	3.00
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	3030.38
+		 Battery Voltage: 0.55 V
+		 Battery:	 Low!
+		 USB is connected and charging.
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:07:33
+
+	 Valores dos Sensores:
+		 Temperatura (C): 	26.67
+		 Umidade (%): 	54.43
+		 Pressão Atmosférica (hPa): 	0.00
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	3.00
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	4613.99
+		 Battery Voltage: 0.56 V
+		 Battery:	 Low!
+		 USB is connected and charging.
++MSGHEX: Start
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 28
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:07:48
+
+	 Valores dos Sensores:
+		 Temperatura (C): 	26.77
+		 Umidade (%): 	54.24
+		 Pressão Atmosférica (hPa): 	0.00
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	4.00
+		 Intensidade de Luz (Lux): 	0.00
+		 Intensidade UV (mW/cm²): 	1612.88
+		 Battery Voltage: 0.55 V
+		 Battery:	 Low!
+		 USB is connected and charging.
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:07:58
+

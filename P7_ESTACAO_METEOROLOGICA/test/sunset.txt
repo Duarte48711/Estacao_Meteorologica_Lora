@@ -1,0 +1,56 @@
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ===================================  Elapsed Time (hh:mm:ss): 00:05:36
+
+
+======================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:05:46
+
+
+======================================================================
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2025.04.27 17:48:27 =~=~=~=~=~=~=~=~=~=~=~=
++VER: 3.5.13
++ID: DevAddr, 00:07:9A:3E
++ID: DevEui, 70:B3:D5:7E:D0:06:F0:F8
++ID: AppEui, 8C:F9:57:20:00:07:9A:3E
++KEY: ERROR(-1)
++KEY: ERROR(-1)
++KEY: APPKEY 2B7E151628AED2A6ABF7158809CF4F3C
++MODE: LWOTAA
++DR: EU868
++DR: DR0
++DR: EU868 DR0  SF12 BW125K 
++CH: 0,868100000,DR0:DR5
++CH: 1,868300000,DR0:DR5
++CH: 2,868500000,DR0:DR5
++RXWIN1: 0,868100000
++RXWIN2: 869500000,DR3
++LW: DC, OFF, 0
++LW: JDC, OFF
++POWER: 14
++JOIN: Start
++JOIN: NORMAL
+SETUP=END=============================================================
+======================================================================
+
+Temp	Hum	Press	Chuva	Ar	Luz	UV	Lat	Long	Date	Time
+0.00	0.00	0.00	-	0	0.00	0.00	INVALID	INVALID	INVALID	INVALID
+
+======================================================================
+LOOP==================================================================
+===================================  Elapsed Time (hh:mm:ss): 00:05:00
+
++MSGHEX: Please join network first
+Failed to send data!
+Time taken (ms): 5002	 Message size (bytes): 28	
+	Valores dos Sensores:
+		 Temperatura (C): 	26.27
+		 Umidade (%): 	55.54
+		 Pressão Atmosférica (hPa): 	0.00
+		 Estado de Chuva: 		Sem Chuva
+		 Qualidade do Ar (PPD42): 	4.00
+		 Intensidade de Luz (Lux): 	1797.00
+		 Intensidade UV (mW/cm²): 	4503.25
+		 Battery Voltage: 0.55 V
+		 Battery:	 Low!
+		 USB is connected and charging.
+
+======================================================================
