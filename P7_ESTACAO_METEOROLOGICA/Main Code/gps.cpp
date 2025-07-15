@@ -60,14 +60,13 @@ void parseGPSLine(String line) {
 void updateGPS(){
 while (Serial2.available()) {
     char c = Serial2.read();    
-//Serial.write(c);
+    //Serial.write(c);
 
-    // start a new sentence
     if (c == '$') {
       nmeaLine    = "$";
       collecting  = true;
     }
-    // build up until CR/LF
+    
     else if (collecting) {
       if (c == '\n' || c == '\r') {
         collecting = false;

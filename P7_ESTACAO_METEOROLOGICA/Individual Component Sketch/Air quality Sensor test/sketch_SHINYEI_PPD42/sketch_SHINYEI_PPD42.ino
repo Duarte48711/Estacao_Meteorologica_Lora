@@ -1,23 +1,26 @@
 // PPD42NS Dust Sensor Configuration
-int dustSensorPin = 8;
-unsigned long pulseDuration;
-unsigned long startTime;
-unsigned long sampleTimeMs = 30000; // Sample time in milliseconds
-unsigned long lowPulseOccupancy = 0;
-float pulseRatio = 0;
-float dustConcentration = 0;
-int count =0;
-float concentration = 0;
-int measure = 0;
+  int dustSensorPin = 8;
+  unsigned long pulseDuration;
+  unsigned long startTime;
+  unsigned long sampleTimeMs = 30000; // Sample time in milliseconds
+  unsigned long lowPulseOccupancy = 0;
+  float pulseRatio = 0;
+  float dustConcentration = 0;
+  int count =0;
+  float concentration = 0;
+  int measure = 0;
+ 
+  bool Start = true;
 
 void setup() {  
+
   Serial.begin(9600);
-  Serial.println("Setup Start");
   pinMode(8, INPUT);
   startTime = millis();
   
 }
 void loop() {
+
   unsigned long duration;
   unsigned long lowPulseOccupancy = 0;
   unsigned long startTime = millis();
@@ -26,8 +29,13 @@ void loop() {
     duration = pulseIn(dustSensorPin, LOW);
     lowPulseOccupancy += duration;
   }
+  if(Start){
+    Serial.println("Testing Shinyei ppd42ns:");
+    Serial.println("( Measure nr , Measure Value )");
+    Start = false;
+  }
   Serial.print("( ");
-  Serial.print(measure++);
+  Serial.print(++measure);
   Serial.print(" , ");
   
   float ratio = lowPulseOccupancy / (sampleTimeMs * 10.0); // as per Seeed formula
@@ -35,7 +43,7 @@ void loop() {
 
   //Serial.print("Dust concentration = ");
   Serial.print(concentration * 0.0477, 2);
-  if(measure%5==0){
+  if(measure%10==0){
       Serial.println(" )");
   }
   else{

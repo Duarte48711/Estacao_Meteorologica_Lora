@@ -5,6 +5,7 @@
     #include <Arduino.h>
 
     // Function declarations
+    void readBattery();
     void checkBatteryStatus();
     void checkUSBChargingStatus();
 

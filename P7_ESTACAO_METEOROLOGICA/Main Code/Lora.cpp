@@ -3,6 +3,7 @@
 char buffer[256];
 
 void initializeLoRa() {
+
     SerialUSB.begin(115200);
     while(!SerialUSB);
     lora.init();
@@ -30,7 +31,7 @@ void sendData() {
 
     float maskValue = strtol(mask.c_str(), nullptr, 2);
     // Original float array
-    float payload[10] = {
+    float payload[12] = { 
         temperatura,
         humidade,
         pressao_atmo,
@@ -39,18 +40,20 @@ void sendData() {
         luz,
         uv ,
         lat,
-        longi,
-        maskValue       
+        longi, //not long due to long type of variable
+        batteryLevel,
+        Painel,
+        maskValue,      
     };
 
     // Serialize the float array to bytes
-    uint8_t* bytes = serializeFloatArray(payload, 10);
-    unsigned int messageSize = 10 * sizeof(float); // Calculate size in bytes
+        uint8_t* bytes = serializeFloatArray(payload, 12);
+        unsigned int messageSize = 10 * sizeof(float); // Calculate size in bytes
 
-    // Measure the time taken for communication
-    unsigned long startTime = millis(); // Start time
-    bool result = lora.transferPacket(bytes, messageSize);
-    unsigned long endTime = millis(); // End time
+        // Measure the time taken for communication
+        unsigned long startTime = millis(); // Start time
+        bool result = lora.transferPacket(bytes, messageSize);
+        unsigned long endTime = millis(); // End time
 
     if (result) {
         short length;
