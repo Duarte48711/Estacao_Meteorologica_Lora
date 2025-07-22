@@ -79,11 +79,11 @@
                 mask = readSensors();
 
                 if(start) {
-                sendData();
+                //sendData();
                 start=false;
                 }                
                 if (currentTime - lastSendTime1 >= sendInterval || lastSendTime1 == 0) {  
-                  sendData();
+                  //sendData();
                    lastSendTime1 = currentTime;
                 }
 

@@ -133,8 +133,7 @@
 }
     String readSensors() { 
         
-       // mask = "00000000"; 
-          mask = "1111111";
+       mask = "00000000"; 
         // DHT20 (Temperature and Humidity)
             if (millis() - DHT.lastRead() >= 1000) {
                 int status = DHT.read();
@@ -197,7 +196,7 @@
             
             readUV();
 
-            if(fabs(uv) < 1 ){
+            if(fabs(uv) < 0 ){
                  mask[6] = '1'; 
             }
             //Serial.print(" , UV");        //debug
