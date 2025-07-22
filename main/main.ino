@@ -32,7 +32,7 @@
         unsigned long startMillis;
         unsigned long lastSendTime = 0;
         unsigned long lastSendTime1 = 0;
-        const unsigned long sendInterval = 180000 * 10; // timer de envio de dados
+        const unsigned long sendInterval = 180000; // timer de envio de dados
         const unsigned long sendInterval1 = 10000; //timer de leitura de dados
     
     bool start = true;

@@ -45,10 +45,13 @@ void sendData() {
         Painel,
         maskValue,      
     };
-
+    Serial.print("Mascara:");
+    Serial.print(maskValue);
+    Serial.print("Painel:");
+    Serial.print( Painel);
     // Serialize the float array to bytes
         uint8_t* bytes = serializeFloatArray(payload, 12);
-        unsigned int messageSize = 10 * sizeof(float); // Calculate size in bytes
+        unsigned int messageSize = sizeof(payload); // Calculate size in bytes
 
         // Measure the time taken for communication
         unsigned long startTime = millis(); // Start time

@@ -107,6 +107,7 @@
         }
 
         uv = uvReal;
+        
 
     }
     float readIQA(int dustSensorPin, unsigned long sampleTimeMs) {
@@ -132,8 +133,8 @@
 }
     String readSensors() { 
         
-        mask = "00000000"; 
-
+       // mask = "00000000"; 
+          mask = "1111111";
         // DHT20 (Temperature and Humidity)
             if (millis() - DHT.lastRead() >= 1000) {
                 int status = DHT.read();
@@ -196,7 +197,7 @@
             
             readUV();
 
-            if(fabs(uv) < 0.001 ){
+            if(fabs(uv) < 1 ){
                  mask[6] = '1'; 
             }
             //Serial.print(" , UV");        //debug
