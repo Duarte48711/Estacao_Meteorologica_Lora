@@ -42,9 +42,9 @@
                 duration = pulseIn(AIR_QUALITY_PIN, LOW);
                 lowPulseOccupancy += duration;
             }            
-            float ratio = lowPulseOccupancy / (sampleTimeMs * 10.0); 
+            float ratio = lowPulseOccupancy / (sampleTimeMs * 1000.0); 
             float concentration = 1.1 * pow(ratio, 3) - 3.8 * pow(ratio, 2) + 520 * ratio + 0.62;
-            return concentration * 0.0477;
+            return concentration * 0.04537;//3531.47*2.45*pow(10,-5);
               
     }
 
@@ -54,21 +54,82 @@
         for (int i = 0; i < 1024; i++)  // accumulate readings for 1024 times
         {
             sensorValue = analogRead(A2);
-            //Serial.print(sensorValue);
             sum = sensorValue + sum;
             delay(2);
         }
         long meanVal = sum / 1024;  // get mean value  
-        //Serial.print("meanValue:");
-        //Serial.println(meanVal);
+        //Serial.print("meanValue:");  //Serial.println(meanVal); // debug
+        
+        float sensorVout = meanVal * (3.300/ 1023.0) * 1000;
+       // float uvIntensity = sensorVout * 307.0;  // Resultado em mW/m²
+        // Serial.println(sensorVout); //debug
+         /*
+        float uvIndex = ((meanVal * 1000 / 4.3 - 83) / 21);
+        float uvReal = (uvIndex - 29.27) * (11 - 2) / (500 - 29.27) + 2;
+        */
+       float uvReal = 0;
 
+        if (sensorVout < 50) {
+            uvReal = 0;
+        }
+        else if (sensorVout >= 50 && sensorVout < 227) {
+            uvReal = 1;
+        }
+        else if (sensorVout >= 227 && sensorVout < 318) {
+            uvReal = 2;
+        }
+        else if (sensorVout >= 318 && sensorVout < 408) {
+            uvReal = 3;
+        }
+        else if (sensorVout >= 408 && sensorVout < 503) {
+            uvReal = 4;
+        }
+        else if (sensorVout >= 503 && sensorVout < 606) {
+            uvReal = 5;
+        }
+        else if (sensorVout >= 606 && sensorVout < 696) {
+            uvReal = 6;
+        }
+        else if (sensorVout >= 696 && sensorVout < 795) {
+            uvReal = 7;
+        }
+        else if (sensorVout >= 795 && sensorVout < 881) {
+            uvReal = 8;
+        }
+        else if (sensorVout >= 881 && sensorVout < 976) {
+            uvReal = 9;
+        }
+        else if (sensorVout >= 976 && sensorVout < 1079) {
+            uvReal = 10;
+        }
+        else if (sensorVout >= 1079) {
+            uvReal = 11;
+        }
 
-        float sensorVout = meanVal * (3.300/ 1023.0);
-        //Serial.print("UV index is:");
-        float uvIntensity = sensorVout * 307.0;  // Resultado em mW/m²
-        uv = uvIntensity/25;
+        uv = uvReal;
+
     }
+    float readIQA(int dustSensorPin, unsigned long sampleTimeMs) {
+  unsigned long startTime = millis();
+  unsigned long lowPulseOccupancy = 0;
 
+  // Acumula toda a duração dos pulsos LOW durante sampleTimeMs
+  while (millis() - startTime < sampleTimeMs) {
+    lowPulseOccupancy += pulseIn(dustSensorPin, LOW);
+  }
+
+  // Converte ocupação de pulso em razão (pcs/0.01cf)
+  float ratio = lowPulseOccupancy / (sampleTimeMs * 10.0);
+
+  // Fórmula do fabricante para pcs/0.01cf
+  float concentrationPcs = 1.1 * pow(ratio, 3)
+                         - 3.8 * pow(ratio, 2)
+                         + 520  * ratio
+                         + 0.62;
+
+  // Converte para µg/m³ (~0.0477 µg/m³ por unidade de pcs/0.01cf)
+  return concentrationPcs * 0.0477;
+}
     String readSensors() { 
         
         mask = "00000000"; 
@@ -80,11 +141,11 @@
 
                     temperatura = DHT.getTemperature();
 
-                    if(fabs(temperatura) < 0.001 ){
+                    if(fabs(temperatura) > 65 || temperatura < -20  ){
                         mask[0] = '1';                         
                     }
                     humidade = DHT.getHumidity();
-                    if( fabs(humidade) < 0.001 ){
+                    if( fabs(humidade) < 0.001 || fabs(humidade) > 100.0 ){
                         mask[1] = '1';
                     } 
 
@@ -100,7 +161,7 @@
             bool pressure_ok = Dps310PressureSensor.measurePressureOnce(pressao_atmo, 7);
                 if (pressure_ok) {
                     pressao_atmo = pressao_atmo;
-                    if(fabs(pressao_atmo) < 0.001 )  mask[2] = '1'; 
+                    if(fabs(pressao_atmo) < 0.001 || fabs(pressao_atmo) > 1300 || fabs(pressao_atmo) < 800 )  mask[2] = '1'; 
                 } 
                 //Serial.print(" , pressao atmo");      //debug
 
@@ -108,13 +169,14 @@
         // Rain Sensor 
             chuva= analogRead(RAIN_SENSOR_PIN);
             chuva=(chuva / 1023.0) * 3.3;
-            if (chuva == -1.0 || chuva == 0.0 ) {
+            if (chuva == -1.0 || chuva == 0.0 ||  chuva > 3.3 ) {
                 mask[3] = '1'; 
             }
             //Serial.print(" , chuva");     //debug
 
         // Air Quality 
-            air_quality_reading = readAirQuality(sampleTimeMs); 
+            //air_quality_reading = readAirQuality(sampleTimeMs); 
+            air_quality_reading = readIQA( AIR_QUALITY_PIN , sampleTimeMs);
             if (air_quality_reading != -1.0 && air_quality_reading != 0.0 ) {
                 qualidade_ar = air_quality_reading;
             } else {
@@ -123,27 +185,17 @@
             //Serial.print(" , QA");    //debug
     
         // Light Sensor 
-            luz = TSL2561.readVisibleLux();
+            luz = TSL2561.readVisibleLux();        
+            if(luz ==-1) luz=40000;
             if(fabs(luz) < 0.001 ){
                  mask[5] = '1'; 
             }
             //Serial.print(" , luz"); //debug
 
-        // UV Sensor
-           /* for (int i = 0; i < 64; i++){
-                sensorValue = analogRead(UV_SENSOR_PIN);
-                sum = sensorValue + sum;
-            }       
-            long meanVal = sum / 64; 
-            float sensorVout = meanVal * (3.300/ 1023.0);                      
-            float uvIntensity = sensorVout * 307.0;  // Resultado em mW/m²
-            uv = uvIntensity/25; 
-            */
+        // UV Sensor            
+            
             readUV();
-            if(uv > 11){ 
-                uv = 11;
-            }
-                       
+
             if(fabs(uv) < 0.001 ){
                  mask[6] = '1'; 
             }
@@ -179,7 +231,7 @@
         } else {
             Serial.print("\tSem Chuva ( ");
         }
-        Serial.print(chuva);
+        //Serial.print(chuva); //debug
         Serial.println( ")");
         Serial.print("\t\t Qualidade do Ar (PPD42): \t");
         Serial.println(qualidade_ar);

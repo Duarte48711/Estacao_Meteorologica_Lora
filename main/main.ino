@@ -32,7 +32,7 @@
         unsigned long startMillis;
         unsigned long lastSendTime = 0;
         unsigned long lastSendTime1 = 0;
-        const unsigned long sendInterval = 180000 * 5; // timer de envio de dados
+        const unsigned long sendInterval = 180000 * 10; // timer de envio de dados
         const unsigned long sendInterval1 = 10000; //timer de leitura de dados
     
     bool start = true;
@@ -53,6 +53,7 @@
 
             initializeSensors();
             initializeLoRa();
+            digitalWrite(13, LOW); //turn led off
 
         Serial.println("SETUP=END=============================================================");
         Serial.println("======================================================================");
@@ -71,7 +72,7 @@
         unsigned long currentTime = millis();
         
 
-        //if (currentTime - lastSendTime >= sendInterval1 || lastSendTime == 0) {
+        if (currentTime - lastSendTime >= sendInterval1 || lastSendTime == 0) {
 
             Serial.print("===================================  ");
                 printElapsedTime();
@@ -80,18 +81,15 @@
                 if(start) {
                 sendData();
                 start=false;
-                }
-                
-                if (currentTime - lastSendTime1 >= sendInterval || lastSendTime1 == 0) {  
-                   sendData();
-                   lastSendTime1 = currentTime;
-                } else { 
-                    //Serial.print("Sensor Error Mask: ");
-                    //Serial.println(mask); 
                 }                
+                if (currentTime - lastSendTime1 >= sendInterval || lastSendTime1 == 0) {  
+                  sendData();
+                   lastSendTime1 = currentTime;
+                }
+
                 lastSendTime = currentTime;
                 printSensorValues();
                 Serial.println();
                 Serial.println("======================================================================");
-       // }
+        }
     }
